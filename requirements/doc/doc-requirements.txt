@@ -7,7 +7,7 @@
 # Install the documentation requirements with:
 #     pip install -r requirements/doc/doc-requirements.txt
 #
-sphinx>=1.8.1,<2.0.0
+sphinx>=3.3.0,<2.0.0
 colorspacious
 ipython
 ipywidgets
@@ -15,3 +15,4 @@ numpydoc>=0.8
 pillow>=3.4,!=5.4.0
 sphinx-gallery>=0.2
 sphinx-copybutton
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
